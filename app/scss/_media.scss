@@ -1,0 +1,86 @@
+             @media (max-width: 2048px) {}
+             
+             @media (max-width: 1920px) {}
+             
+             @media (max-width: 1800px) {}
+             
+             @media (max-width: 1620px) {}
+             
+             @media (max-width: 1600px) {}
+             
+             @media (max-width: 1536px) {}
+             
+             @media (max-width: 1440px) {}
+             
+             @media (max-width: 1200px) {}
+             
+             @media (max-width: 1080px) {}
+             
+             @media (max-width: 1024px) {}
+             
+             @media (max-width: 960px) {}
+             
+             @media (max-width: 900px) {}
+             
+             @media (max-width: 864px) {}
+             
+             @media (max-width: 800px) {}
+             
+             @media (max-width: 720px) {}
+             
+             @media (max-width: 640px) {}
+             
+             @media (max-width: 600px) {}
+             
+             @media (max-width: 540px) {}
+             
+             @media (max-width: 480px) {
+                 //    burger menu start
+                 .header__menu {
+                     order: 1;
+                 }
+                 .header__menu-list {
+                     display: none;
+                     position: absolute;
+                     top: 120px;
+                     left: 0;
+                     right: 0;
+                     width: 100%;
+                     text-align: center;
+                     transition: all 0.5s;
+                 }
+                 .header__menu-item {
+                     display: block !important;
+                 }
+                 .header__menu-item+.header__menu-item {
+                     margin-left: 0;
+                     margin-top: 30px;
+                 }
+                 .header__menu-burger {
+                     display: block;
+                     width: 30px;
+                     position: absolute;
+                     cursor: pointer;
+                     outline: none;
+                     border: none;
+                     background-color: transparent;
+                     right: 25px;
+                     top: 42px;
+                     div {
+                         background-color: $text;
+                         height: 3px;
+                         &+div {
+                             margin-top: 3px;
+                         }
+                     }
+                 }
+                 .header__burger-list {
+                     background-color: #000;
+                     position: absolute;
+                 }
+                 //    burger menu end
+             }
+             
+             @media (max-width: 360px) {}
+             
+             @media (max-width: 320px) {}

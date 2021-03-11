@@ -1,0 +1,44 @@
+@import '_vars';
+@import '_global';
+@import '_fonts';
+// start header
+.header {
+    padding: 25px 0px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-list li {
+    display: inline-block;
+}
+
+.header__menu-list li+li {
+    margin-left: 30px;
+}
+
+.header__log {
+    @include f700;
+    font-size: 11px;
+    line-height: 17px;
+    border: 1px solid #A7BBC9;
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-transform: uppercase;
+}
+
+// burger-menu start
+.header__menu-burger {
+    display: none;
+}
+
+.header__burger-list {
+    display: none;
+}
+
+// burger-menu end
+// end header
+@import '_media';
