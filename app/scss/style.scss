@@ -88,8 +88,8 @@
     max-width: 499px;
     padding: 16px 10px 16px 60px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 88px;
+    bottom: -29px;
 }
 
 .hero__sale-content {
@@ -103,4 +103,104 @@
 }
 
 // end hero
+// start portal
+.portal {
+    padding: 40px 0px 23px;
+}
+
+.portal__title {
+    text-align: center;
+    color: $text;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    @include f700;
+    margin-bottom: 20px;
+}
+
+.portal__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portal__item {
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 50px;
+}
+
+.portal__content {
+    color: #fff;
+}
+
+.portal__content___title {
+    font-size: 24px;
+    line-height: 32px;
+    @include f700;
+    margin-bottom: 10px;
+}
+
+.portal__content-desc {
+    font-size: 15px;
+    line-height: 21px;
+    @include f500;
+    margin-bottom: 10px;
+}
+
+.portal__content-link {
+    @include f700;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+// end portal
+// start camera
+.camera {
+    padding-bottom: 20px;
+    background-color: #D0E8EA;
+}
+
+.camera__bg {
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    img {
+        max-width: 1180px;
+    }
+}
+
+.camera__title {
+    max-width: 682px;
+}
+
+.camera__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.camera__content-item {
+    max-width: 357px;
+    margin-top: 30px;
+}
+
+.camera__content-title {
+    font-size: 24px;
+    line-height: 30px;
+    @include f700;
+    margin-bottom: 15px;
+    color: $text;
+}
+
+.camera__content-text {
+    font-size: 17px;
+    line-height: 23px;
+    color: $tex;
+    margin-bottom: 15px;
+}
+
+// end camera
 @import '_media';

@@ -14,7 +14,17 @@
              
              @media (max-width: 1200px) {}
              
-             @media (max-width: 1080px) {}
+             @media (max-width: 1080px) {
+                 // start portal
+                 .portal__inner {
+                     flex-wrap: wrap;
+                 }
+                 .portal__item {
+                     margin: 0 auto;
+                     margin-top: 10px;
+                 }
+                 // end portal
+             }
              
              @media (max-width: 1024px) {}
              
@@ -24,7 +34,19 @@
              
              @media (max-width: 864px) {}
              
-             @media (max-width: 800px) {}
+             @media (max-width: 800px) {
+                 //  start camera
+                 .camera__content {
+                     flex-wrap: wrap;
+                 }
+                 .camera__content-item {
+                     margin-right: auto;
+                 }
+                 .camera__bg {
+                     overflow-x: hidden;
+                 }
+                 //  end camera
+             }
              
              @media (max-width: 720px) {}
              
@@ -92,6 +114,7 @@
                      line-height: 48px;
                      @include f500;
                      max-width: 440px;
+                     padding-top: 100px;
                  }
                  .subtitle {
                      @include f500;
@@ -107,8 +130,20 @@
                  }
                  .hero__sale {
                      padding: 8px 10px 8px 20px;
+                     width: 100%;
+                     right: 0;
+                     left: 0;
                  }
                  //  hero end
+                 //  start camera
+                 .camera__title {
+                     font-size: 24px;
+                     line-height: 30px;
+                     @include f500;
+                     max-width: 440px;
+                     padding-top: 30px;
+                 }
+                 //  end camera
              }
              
              @media (max-width: 360px) {}
