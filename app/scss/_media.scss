@@ -46,6 +46,19 @@
                      display: none;
                  }
                  // end alexa
+                 //  start lifehuck
+                 .lifehuck__inner {
+                     flex-wrap: wrap;
+                 }
+                 .lifehuck__item {
+                     margin-top: 20px;
+                     padding: 20px 0px 0px 20px;
+                     margin-right: 0px;
+                 }
+                 .lifehuck__item-subtitle {
+                     padding-bottom: 15px;
+                 }
+                 //  end lifehuck
              }
              
              @media (max-width: 1024px) {}
@@ -186,6 +199,11 @@
                      padding-top: 0px;
                  }
                  //  end story
+                 //  alexa start
+                 .alexa__content {
+                     text-align: center;
+                 }
+                 // alexa end
              }
              
              @media (max-width: 360px) {}
