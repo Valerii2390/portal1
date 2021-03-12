@@ -62,6 +62,8 @@
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
 }
 
 .hero__demo {
@@ -74,14 +76,30 @@
 
 .hero__portal {
     padding: 13px 36px;
-}
-
-.hero__portal:hover {
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
-    transition: all 0.3s;
-    outline: none;
+}
+
+.hero__sale {
+    background-color: #F1C0C7;
+    display: flex;
+    justify-content: space-between;
+    max-width: 499px;
+    padding: 16px 10px 16px 60px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hero__sale-content {
+    margin-left: 20px;
+}
+
+.hero__sale-title {
+    @include f700;
+    font-style: 15px;
+    line-height: 21px;
 }
 
 // end hero
