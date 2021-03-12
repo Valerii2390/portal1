@@ -41,6 +41,11 @@
                      margin-bottom: 20px;
                  }
                  //  end social
+                 // start alexa
+                 .alexa__item {
+                     display: none;
+                 }
+                 // end alexa
              }
              
              @media (max-width: 1024px) {}
