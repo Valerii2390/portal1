@@ -203,4 +203,33 @@
 }
 
 // end camera
+// social start
+.social__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__links {
+    margin-bottom: 20px;
+}
+
+.social__messenger {
+    margin-left: 20px;
+}
+
+.social__text {
+    font-size: 17px;
+    line-height: 23px;
+    color: #615E5C;
+    margin-bottom: 16px;
+}
+
+.social__subtext {
+    font-size: 11px;
+    line-height: 18px;
+    color: #AEABA8;
+}
+
+// end start
 @import '_media';

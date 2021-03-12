@@ -24,6 +24,23 @@
                      margin-top: 10px;
                  }
                  // end portal
+                 //  strat social
+                 .social__inner {
+                     flex-wrap: wrap;
+                     img {
+                         display: none;
+                     }
+                     .title {
+                         padding-top: 20px;
+                     }
+                 }
+                 .social__content {
+                     margin-top: 20px;
+                 }
+                 .social__subtext {
+                     margin-bottom: 20px;
+                 }
+                 //  end social
              }
              
              @media (max-width: 1024px) {}
