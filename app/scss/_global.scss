@@ -57,9 +57,19 @@ a {
     color: $text;
     font-weight: 700;
     font-size: 50px;
-    text-align: center;
     line-height: 55px;
     @include f700;
+    max-width: 440px;
+    padding-top: 195px;
+    margin-bottom: 17px;
+}
+
+.subtitle {
+    @include f700;
+    font-size: 18px;
+    line-height: 24px;
+    color: $tex;
+    margin-bottom: 40px;
 }
 
 .container {

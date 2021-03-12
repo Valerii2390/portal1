@@ -42,12 +42,14 @@
                  .header__menu-list {
                      display: none;
                      position: absolute;
-                     top: 120px;
+                     top: 96px;
                      left: 0;
                      right: 0;
                      width: 100%;
                      text-align: center;
-                     transition: all 0.5s;
+                     transition-duration: all 0.3s;
+                     background-color: #fff;
+                     min-height: 600px;
                  }
                  .header__menu-item {
                      display: block !important;
@@ -55,6 +57,7 @@
                  .header__menu-item+.header__menu-item {
                      margin-left: 0;
                      margin-top: 30px;
+                     margin-bottom: 15px;
                  }
                  .header__menu-burger {
                      display: block;
@@ -74,9 +77,13 @@
                          }
                      }
                  }
-                 .header__burger-list {
-                     background-color: #000;
-                     position: absolute;
+                 .burger__icons {
+                     border-top: 1px solid $tex;
+                 }
+                 .burger__icon-link {
+                     display: inline-block;
+                     margin-top: 30px;
+                     margin-left: 10px;
                  }
                  //    burger menu end
              }
