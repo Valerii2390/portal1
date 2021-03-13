@@ -98,7 +98,7 @@
 
 .hero__sale-title {
     @include f700;
-    font-style: 15px;
+    font-size: 15px;
     line-height: 21px;
 }
 
@@ -288,7 +288,7 @@
 // alexa start
 .alexa {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .alexa__inner {
@@ -377,4 +377,89 @@
 }
 
 // lifehuck end
+// find__portal start
+.find__portal {
+    background-color: #D0E7EA;
+    padding: 57px 0px 42px;
+}
+
+.find__portal-title {
+    color: $text;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    @include f700;
+    max-width: 440px;
+    margin-bottom: 17px;
+}
+
+.find__portal-title {
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.find__portal-sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.find__portal__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 53px;
+}
+
+.find__portal-item {
+    background-color: #fff;
+    min-width: 304px;
+    width: 100%;
+    padding: 32px 18px 24px;
+    text-align: center;
+    min-height: 513px;
+    margin-left: 5px;
+}
+
+.find__portal-excerpt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.find__portal-display {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 31px;
+    color: $tex;
+}
+
+.find__portal-buy {
+    color: #fff;
+    background-color: #1877F2;
+    padding: 13px 25px;
+    border: 1px solid #1877F2;
+    border-radius: 24px;
+    margin-bottom: 25px;
+}
+
+.find__portal-products {
+    text-align: center;
+    padding: 13px 33px;
+    border-radius: 24px;
+    border: 1px solid #FFFFFF;
+    max-width: 193px;
+    background-color: #fff;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: $tex;
+}
+
+// find__portal end
 @import '_media';
