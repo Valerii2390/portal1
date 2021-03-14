@@ -1,234 +1,255 @@
-             @media (max-width: 2048px) {}
-             
-             @media (max-width: 1920px) {}
-             
-             @media (max-width: 1800px) {}
-             
-             @media (max-width: 1620px) {}
-             
-             @media (max-width: 1600px) {}
-             
-             @media (max-width: 1536px) {}
-             
-             @media (max-width: 1440px) {}
-             
-             @media (max-width: 1200px) {
-                 //  start find__Portal
-                 .find__portal__inner {
-                     flex-wrap: wrap;
-                 }
-                 .find__portal-item {
-                     margin: 10px auto 0px;
-                 }
-                 .find__portal-title {
-                     font-size: 35px;
-                     line-height: 40px;
-                 }
-                 //  start find__Portal
-             }
-             
-             @media (max-width: 1080px) {
-                 // start portal
-                 .portal__inner {
-                     flex-wrap: wrap;
-                 }
-                 .portal__item {
-                     margin: 0 auto;
-                     margin-top: 10px;
-                 }
-                 // end portal
-                 //  strat social
-                 .social__inner {
-                     flex-wrap: wrap;
-                     img {
-                         display: none;
-                     }
-                     .title {
-                         padding-top: 20px;
-                     }
-                 }
-                 .social__content {
-                     margin-top: 20px;
-                 }
-                 .social__subtext {
-                     margin-bottom: 20px;
-                 }
-                 //  end social
-                 // start alexa
-                 .alexa__item {
-                     display: none;
-                 }
-                 // end alexa
-                 //  start lifehuck
-                 .lifehuck__inner {
-                     flex-wrap: wrap;
-                 }
-                 .lifehuck__item {
-                     margin-top: 20px;
-                     padding: 20px 0px 0px 20px;
-                     margin-right: 0px;
-                 }
-                 .lifehuck__item-subtitle {
-                     padding-bottom: 15px;
-                 }
-                 //  end lifehuck
-             }
-             
-             @media (max-width: 1024px) {}
-             
-             @media (max-width: 960px) {}
-             
-             @media (max-width: 900px) {}
-             
-             @media (max-width: 864px) {}
-             
-             @media (max-width: 800px) {
-                 //  start camera
-                 .camera__content {
-                     flex-wrap: wrap;
-                 }
-                 .camera__content-item {
-                     margin-right: auto;
-                 }
-                 .camera__bg {
-                     overflow-x: hidden;
-                 }
-                 //  end camera
-             }
-             
-             @media (max-width: 720px) {}
-             
-             @media (max-width: 640px) {}
-             
-             @media (max-width: 600px) {}
-             
-             @media (max-width: 540px) {}
-             
-             @media (max-width: 480px) {
-                 //    burger menu start
-                 .header__menu {
-                     order: 1;
-                 }
-                 .header__menu-list {
-                     display: none;
-                     position: absolute;
-                     top: 96px;
-                     left: 0;
-                     right: 0;
-                     width: 100%;
-                     text-align: center;
-                     transition-duration: all 0.3s;
-                     background-color: #fff;
-                     min-height: 600px;
-                 }
-                 .header__menu-item {
-                     display: block !important;
-                 }
-                 .header__menu-item+.header__menu-item {
-                     margin-left: 0;
-                     margin-top: 30px;
-                     margin-bottom: 15px;
-                 }
-                 .header__menu-burger {
-                     display: block;
-                     width: 30px;
-                     position: absolute;
-                     cursor: pointer;
-                     outline: none;
-                     border: none;
-                     background-color: transparent;
-                     right: 25px;
-                     top: 42px;
-                     div {
-                         background-color: $text;
-                         height: 3px;
-                         &+div {
-                             margin-top: 3px;
-                         }
-                     }
-                 }
-                 .burger__icons {
-                     border-top: 1px solid $tex;
-                 }
-                 .burger__icon-link {
-                     display: inline-block;
-                     margin-top: 30px;
-                     margin-left: 10px;
-                 }
-                 //    burger menu end
-                 //  hero start
-                 .hero {
-                     max-height: 600px;
-                 }
-                 .hero__sale-title {
-                     @include f700;
-                     font-size: 15px;
-                     line-height: 18px;
-                 }
-                 .title {
-                     font-size: 40px;
-                     line-height: 48px;
-                     @include f500;
-                     max-width: 440px;
-                     padding-top: 100px;
-                 }
-                 .subtitle {
-                     @include f500;
-                     font-size: 14px;
-                     line-height: 18px;
-                 }
-                 .hero__btns {
-                     text-align: center;
-                 }
-                 .hero__demo {
-                     margin-right: 0;
-                     margin-bottom: 20px;
-                 }
-                 .hero__sale {
-                     padding: 8px 10px 8px 20px;
-                     width: 100%;
-                     right: 0;
-                     left: 0;
-                 }
-                 .hero__sale-text {
-                     @include f500;
-                     font-size: 10px;
-                     line-height: 15px;
-                 }
-                 //  hero end
-                 //  start camera
-                 .camera__title {
-                     font-size: 24px;
-                     line-height: 30px;
-                     @include f500;
-                     max-width: 440px;
-                     padding-top: 30px;
-                 }
-                 //  end camera
-                 //  start portal
-                 .portal__title {
-                     font-size: 28px;
-                     line-height: 32px;
-                 }
-                 //  end portal
-                 //  start story
-                 .story {
-                     max-height: 470px;
-                 }
-                 .story__content {
-                     padding-top: 20px;
-                 }
-                 .story__title {
-                     padding-top: 0px;
-                 }
-                 //  end story
-                 //  alexa start
-                 .alexa__content {
-                     text-align: center;
-                 }
-                 // alexa end
-             }
-             
-             @media (max-width: 360px) {}
-             
-             @media (max-width: 320px) {}
+                                         @media (max-width: 2048px) {}
+                                         
+                                         @media (max-width: 1920px) {}
+                                         
+                                         @media (max-width: 1800px) {}
+                                         
+                                         @media (max-width: 1620px) {}
+                                         
+                                         @media (max-width: 1600px) {}
+                                         
+                                         @media (max-width: 1536px) {}
+                                         
+                                         @media (max-width: 1440px) {}
+                                         
+                                         @media (max-width: 1200px) {
+                                             //  start find__Portal
+                                             .find__portal__inner {
+                                                 flex-wrap: wrap;
+                                             }
+                                             .find__portal-item {
+                                                 margin: 10px auto 0px;
+                                             }
+                                             .find__portal-title {
+                                                 font-size: 35px;
+                                                 line-height: 40px;
+                                             }
+                                             //  end find__Portal
+                                         }
+                                         
+                                         @media (max-width: 1080px) {
+                                             // start portal
+                                             .portal__inner {
+                                                 flex-wrap: wrap;
+                                             }
+                                             .portal__item {
+                                                 margin: 0 auto;
+                                                 margin-top: 10px;
+                                             }
+                                             // end portal
+                                             //  strat social
+                                             .social__inner {
+                                                 flex-wrap: wrap;
+                                                 img {
+                                                     display: none;
+                                                 }
+                                                 .title {
+                                                     padding-top: 20px;
+                                                 }
+                                             }
+                                             .social__content {
+                                                 margin-top: 20px;
+                                             }
+                                             .social__subtext {
+                                                 margin-bottom: 20px;
+                                             }
+                                             //  end social
+                                             // start alexa
+                                             .alexa__item {
+                                                 display: none;
+                                             }
+                                             // end alexa
+                                             //  start lifehuck
+                                             .lifehuck__inner {
+                                                 flex-wrap: wrap;
+                                             }
+                                             .lifehuck__item {
+                                                 margin-top: 20px;
+                                                 padding: 20px 0px 0px 20px;
+                                                 margin-right: 0px;
+                                             }
+                                             .lifehuck__item-subtitle {
+                                                 padding-bottom: 15px;
+                                             }
+                                             //  end lifehuck
+                                             //  start footer
+                                             .footer__inner {
+                                                 flex-wrap: wrap;
+                                                 text-align: center;
+                                             }
+                                             .footer__item {
+                                                 max-width: 250px;
+                                                 width: 100%;
+                                                 margin: 30px auto 0px;
+                                                 border-bottom: 1px solid #fff;
+                                                 padding-bottom: 15px;
+                                             }
+                                             .footer__content {
+                                                 a {
+                                                     margin: 20px auto 20px;
+                                                 }
+                                             }
+                                             .footer__content-language {
+                                                 padding: 12px 0px 11px 12px;
+                                             }
+                                             //  end footer
+                                         }
+                                         
+                                         @media (max-width: 1024px) {}
+                                         
+                                         @media (max-width: 960px) {}
+                                         
+                                         @media (max-width: 900px) {}
+                                         
+                                         @media (max-width: 864px) {}
+                                         
+                                         @media (max-width: 800px) {
+                                             //  start camera
+                                             .camera__content {
+                                                 flex-wrap: wrap;
+                                             }
+                                             .camera__content-item {
+                                                 margin-right: auto;
+                                             }
+                                             .camera__bg {
+                                                 overflow-x: hidden;
+                                             }
+                                         }
+                                         
+                                         //  end camera
+                                         @media (max-width: 720px) {}
+                                         
+                                         @media (max-width: 640px) {}
+                                         
+                                         @media (max-width: 600px) {}
+                                         
+                                         @media (max-width: 540px) {}
+                                         
+                                         @media (max-width: 480px) {
+                                             //    burger menu start
+                                             .header__menu {
+                                                 order: 1;
+                                             }
+                                             .header__menu-list {
+                                                 display: none;
+                                                 position: absolute;
+                                                 top: 96px;
+                                                 left: 0;
+                                                 right: 0;
+                                                 width: 100%;
+                                                 text-align: center;
+                                                 transition-duration: all 0.3s;
+                                                 background-color: #fff;
+                                                 min-height: 600px;
+                                             }
+                                             .header__menu-item {
+                                                 display: block !important;
+                                             }
+                                             .header__menu-item+.header__menu-item {
+                                                 margin-left: 0;
+                                                 margin-top: 30px;
+                                                 margin-bottom: 15px;
+                                             }
+                                             .header__menu-burger {
+                                                 display: block;
+                                                 width: 30px;
+                                                 position: absolute;
+                                                 cursor: pointer;
+                                                 outline: none;
+                                                 border: none;
+                                                 background-color: transparent;
+                                                 right: 25px;
+                                                 top: 42px;
+                                                 div {
+                                                     background-color: $text;
+                                                     height: 3px;
+                                                     &+div {
+                                                         margin-top: 3px;
+                                                     }
+                                                 }
+                                             }
+                                             .burger__icons {
+                                                 border-top: 1px solid $tex;
+                                             }
+                                             .burger__icon-link {
+                                                 display: inline-block;
+                                                 margin-top: 30px;
+                                                 margin-left: 10px;
+                                             }
+                                             //    burger menu end
+                                             //  hero start
+                                             .hero {
+                                                 max-height: 600px;
+                                             }
+                                             .hero__sale-title {
+                                                 @include f700;
+                                                 font-size: 15px;
+                                                 line-height: 18px;
+                                             }
+                                             .title {
+                                                 font-size: 40px;
+                                                 line-height: 48px;
+                                                 @include f500;
+                                                 max-width: 440px;
+                                                 padding-top: 100px;
+                                             }
+                                             .subtitle {
+                                                 @include f500;
+                                                 font-size: 14px;
+                                                 line-height: 18px;
+                                             }
+                                             .hero__btns {
+                                                 text-align: center;
+                                             }
+                                             .hero__demo {
+                                                 margin-right: 0;
+                                                 margin-bottom: 20px;
+                                             }
+                                             .hero__sale {
+                                                 padding: 8px 10px 8px 20px;
+                                                 width: 100%;
+                                                 right: 0;
+                                                 left: 0;
+                                             }
+                                             .hero__sale-text {
+                                                 @include f500;
+                                                 font-size: 10px;
+                                                 line-height: 15px;
+                                             }
+                                             //  hero end
+                                             //  start camera
+                                             .camera__title {
+                                                 font-size: 24px;
+                                                 line-height: 30px;
+                                                 @include f500;
+                                                 max-width: 440px;
+                                                 padding-top: 30px;
+                                             }
+                                             //  end camera
+                                             //  start portal
+                                             .portal__title {
+                                                 font-size: 28px;
+                                                 line-height: 32px;
+                                             }
+                                             //  end portal
+                                             //  start story
+                                             .story {
+                                                 max-height: 470px;
+                                             }
+                                             .story__content {
+                                                 padding-top: 20px;
+                                             }
+                                             .story__title {
+                                                 padding-top: 0px;
+                                             }
+                                             //  end story
+                                             //  alexa start
+                                             .alexa__content {
+                                                 text-align: center;
+                                             }
+                                             // alexa end
+                                         }
+                                         
+                                         @media (max-width: 360px) {}
+                                         
+                                         @media (max-width: 320px) {}
